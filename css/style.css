@@ -4,6 +4,7 @@
     --dark: #000000;
     --light: 	#00FFFF;
     --primary: 	#0000FF;
+    --bg: #A8A8A8;
 }
 *{
     padding: 0;
@@ -12,6 +13,7 @@
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
 }
+
 header{
     background: var(--pure);
 }
@@ -20,19 +22,224 @@ header{
     padding: 0 15px;
     margin: 0 auto;
 }
+@media (min-width: 576px){
+   
+}
+
+
+
 header nav .left a{
     color: var(--dark);
     text-decoration: none;
     margin-right: 2rem;
     transition:all .3s ease;
+    font-size: 25px;
 }
 header nav .left a:hover{
     color: var(--primary);
-    
 }
 header nav{
     padding: 4rem 0;
 }
 header nav .logo{
     margin-right: 3rem;
+    font-size: 50px;
+}
+.hero{
+    margin-bottom:10rem;
+}
+.hero>h1{
+    font-size: 85px;
+    font-weight: 1000;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.hero>p{
+    font-size: 30px;
+    font-weight: 50px;
+    margin-bottom: 5rem;
+}
+section{
+    padding: 5rem 0;
+}
+
+.black{
+    width: 100%;
+    background: var(--dark);
+}
+
+.details div>h1{
+    font-size: 100px;
+    font-weight: 1000;
+    margin-bottom: 5rem;
+    line-height: 1;
+    color: var(--light);
+    margin-top: 5rem;
+}
+.details div>p{
+    color: var(--pure);
+    font-size: 30px;
+    margin-bottom: 5rem;
+}
+.details div>img{
+   
+}
+.age div>img{
+   margin-right: 3rem;
+}
+.age div>h1{
+    margin-bottom: 2rem;
+    font-size: 50px;
+    font-weight: 2500px;
+    line-height: 1; 
+}
+.pay div>h1{
+    margin-bottom: 2rem;
+    font-size: 50px;
+    font-weight: 2500px;
+    line-height: 1;
+}
+.pay div>p{
+    margin-bottom: 2rem;
+}
+
+.pricing div>h1{
+    color:var(--light);
+    margin-bottom: 5rem;
+    font-size: 75px ;
+    line-height: 1;
+}
+.pricing div>h5{
+    font-size: 30px;
+    color:var(--light);
+    margin-top: 5rem;
+}
+.pricing div>h4{
+    margin-top: 9rem;
+    color: var(--pure);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.pricing div>h3{
+    color: var(--light);
+    margin-top: 5rem;
+    font-size: 40px;
+}
+
+.pricing div span{
+    margin-right: 0.5rem;
+    padding: 3rem 3rem;
+    color: var(--dark);
+    background-color: var(--light);
+    border-radius: 50%;
+    font-size: 100px;
+}
+.pricing div>ul{
+    line-height:4rem;
+    color: var(--pure);
+    list-style-type: none;
+    margin-bottom: 8rem;
+    font-family: 20px;
+}
+ul li:before{
+    padding: 1rem 0.5rem;
+    content: '✓';
+    color: var(--light);
+}
+.nucleus-buttons div>h3{
+    text-transform: uppercase;
+}
+.nucleus-buttons div>p{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 5rem;
+}
+.nucleus-buttons div .btn-secondary{
+    margin-left: 5rem;
+    width:250px
+}
+.nucleus-buttons div .btn-primary{
+    width: 300px;
+}
+.help-outer-box .help-inner-box .circle{
+    margin-left:100px;
+    width:485px;
+    height: 300px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    margin-right: 150px;
+}
+.help-outer-box .help-inner-box .circle img{
+    margin-top: 30px;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.help-outer-box{
+    background-color: var(--bg);
+    width: 100%;
+    height: 900px;
+    margin-top: 450px;
+}
+.help-inner-box{
+    width: 1500px;
+    height:800px;
+    background-color: var(--dark);
+    margin: -18% auto; 
+}
+.help-outer-box .help-inner-box div>h4{
+    color: var(--light);
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+.help-outer-box div>h1{
+    color: var(--pure);
+    font-size: 90px;
+    line-height: 1;
+    
+}
+.help-outer-box div>p{
+    color:var(--pure);
+    
+}
+.icons-box{
+    margin: 50px 0;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 2rem;
+    background-color: var(--bg);
+    border-color: var(--bg);
+}
+.companies-box{
+    margin-top: 500px;
+}
+.companies>img{
+    width:  200px;
+    height: 50px;
+    margin-right: 8rem;
+}
+.help-outer-box button{
+    margin-left:40%;
+    margin-top:50px;
+    width: 300px;
+}
+.try div>h1{
+    margin-top: 200px;
+    margin-left: 25%;
+    font-size: 5rem;
+    font-weight: 1000;
+}
+.try button{
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 300px;
 }

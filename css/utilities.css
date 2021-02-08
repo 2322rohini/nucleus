@@ -1,13 +1,18 @@
 .flex{
     display: flex;
 }
+.flex-1{
+    flex:1;
+}
 .items-center{
     align-items: center;
 }
+
 .justify-between{
     justify-content: space-between;
 }
 .btn{
+    width:200px;
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
     border-radius: 30px;
@@ -25,4 +30,14 @@
     background: var(--primary);
     border-color: transparent;
     color: var(--pure);
+}
+.btn-secondary{
+    background: var(--primary);
+    color: var(--pure);
+    margin-right: 1rem;
+}
+.btn-secondary:hover{
+    background: transparent;
+    color: var(--dark);
+    border-color:var(--dark);
 }
